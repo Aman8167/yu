@@ -1,0 +1,144 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    /* list-style: none; */
+    box-sizing:border-box;
+}
+body{
+    font-family:montserrat;
+}
+.navbar {
+    background-color: black;
+    height:80px;
+    width:100%;
+
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height:60px;
+    margin:0 5px;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    color:white;
+    font-size: 17px;
+     border-radius: 3px; 
+    text-transform: uppercase;
+
+    
+}
+a.active,a.hover{
+
+    transition: .5s;
+    
+}
+
+.navbar  ul li a:hover{
+   cursor: pointer;
+   font-size: o.7s;
+   padding:3px 12px;
+   background-color: rgb(54, 117, 172);
+}
+@media (max-width:952){
+    label.logo{
+        font-size: 30px;
+        padding-left:50px;
+    }
+    nav ul  li a {
+        font-size: 16px;
+
+    }
+}
+#menu-bar {
+    background-color:  rgb(94, 187, 218);
+    padding:10px;
+}
+#menu-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+#menu-bar li{
+    display: inline;
+    margin-right: 10px;
+
+}
+#menu-bar a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+#menu-bar ul li:hover{
+    cursor: pointer;
+    background-color:black;
+    font-size: 0.5s;
+    padding:3px;
+}
+.fg{
+    margin-left:169px ;
+    font-size: 24px;
+    outline: none;
+    background-color: white;
+}
+.fg:hover{
+    cursor: pointer;
+    background-color: rgb(54, 117, 172);
+    color:white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 0.5s;
+    
+}
+.footer{
+    background-color: black;
+    padding: 40px 0;
+
+
+}
+.comment-box{
+    width:400px;
+    background-image:url(hj.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.footer ul{
+    margin-top:0;
+    padding:none;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul li a{
+    
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+ .footer ul li{
+    display: inline-block; 
+    padding:5px;
+ }
+
+   

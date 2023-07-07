@@ -1,0 +1,123 @@
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel
+        ="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz
+        1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha38
+        4-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4
+        YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .abv:hover{
+               cursor:pointer;
+               border:5px solid blue;
+               font-size: 12px;
+               border-radius: 2px;
+            }
+            .asd{
+                width:500px;
+                border:3px solid white;
+                background-color: beige;
+                text-align: center;
+                padding:5px;
+            }
+           
+            .asd label{
+                font-size: 25px;
+            }
+          .asd .f:hover{
+            cursor:pointer;
+            border: 5px solid white;
+          }
+    </style>
+</head>
+<body style="background-image:url(as.jpg);background-size:cover;background-repeat: no-repeat;">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+        
+            <label class="logo"><img src="gi.jpg" style="width:50px;height:41px;border-radius: 50%;padding:2px;">ForegiN</label>
+            <ul>
+                <li><a class="active"href="index.html">Job</a></li>
+                <li><a class="active"href="home.html">Home</a></li>
+                <li><a class="active"href="service.html">Service</a>
+                </li>
+                <li><a class="active"href="contact.html">Contact</a></li>
+                <li><a class="active"href="feedback.html">Feedback</a></li>
+                <li><a class="active"href="bank.html">Bank job</a></li>
+                <li><a class="active"href="its.html">IT Jobs</a></li>
+        
+                <button  class="abv"style="color:white;font-size:13px;padding: 5px;background-color: black;"><ion-icon name="search-outline"></ion-icon></button>
+        
+            
+                </ul>
+              </div>
+            
+
+           
+          </nav>
+          <center>
+            <div id="menu-bar">
+              <ul>
+                <li><a href="#">Work from Home</a></li>
+                <li><a href="#">2023 Batch</a></li>
+                <li><a href="#">2022 Batch</a></li>
+                <li><a href="#">B.Com</a></li>
+                <li><a href="#">BBA</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="#">Mechanical Engineering</a></li>
+                <li><a href="#">Diploma</a></li>
+                <li><a href="#">MBA jobs</a></li>
+               
+              </ul>
+            </div>
+
+            </center>
+            <br><br><br><br>
+            <center>
+                <div class="asd">
+    <h2>Feedback Form</h2>
+    <form action="submit_feedback.php" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required style="width:40%;padding:5px;"><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required  style="width:40%;padding:5px;"><br><br>
+        
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" required  style="width:40%;padding:5px;"></textarea><br><br>
+        
+        <input class="f"style="color:white;padding:5px;background-color: silver;" type="submit" value="Submit">
+    </form>
+    </div>
+    </center>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <footer class="footer">
+            <div class="container">
+             <div class="row">
+                 <h4 style="color:white;">© 2023 | Developed and Hosted by RightNode Media.</h4>
+                 <div class="footer-col">
+                     
+                     <ul>
+                         <li><a href="#">Discliamer</a></li>
+                         <li><a href="#">Privacy policy</a></li>
+                 
+                         <li><a href="#">T&C</a></li>
+                 
+                         <li><a href="#">About</a></li>
+                     </ul>
+                 </div>
+             
+             </div>
+            </div>
+         </footer> 
+         </center>
+         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

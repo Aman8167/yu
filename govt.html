@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel
+        ="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz
+        1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha38
+        4-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4
+        YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Government Job Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<br><br><br><br><br>
+<body style="background-color: silver;;">
+    <center>
+    <div class="container" style="background-color: bisque;">
+        <h1>Government Job Portal</h1>
+        <form id="jobForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" required><br><br>
+            <input type="submit" value="Apply">
+        </form>
+    </div>
+</center>
+    <script>
+        document.getElementById('jobForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var jobTitle = document.getElementById('jobTitle').value;
+
+           
+
+            alert('Thank you, ' + name + '! Your application for ' + jobTitle + ' has been submitted successfully.');
+            document.getElementById('jobForm').reset();
+        });
+    </script>
+</body>
+</html>

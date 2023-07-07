@@ -1,0 +1,66 @@
+#menu-sum strong{
+
+color:black;
+
+
+}
+#menu-sum ul li{
+   text-align: center;
+   padding:5px;
+   width:700px;
+   background-color: silver;
+
+}
+
+
+#menu-sum ul li{
+    border:3px solid white;
+    padding:10px;
+
+}
+#sum-sume ul li{
+    text-align: center;
+    padding:5px;
+    width:700px;
+    background-color: silver;
+
+
+}
+#sum-sume ul li{
+    border: 3px solid white;
+    padding:10px;
+    
+}
+#sum-sume ul li span{
+    color:black;
+}
+#sue ul li{
+    text-align: center;
+    padding:5px;
+    width:700px;
+    background-color: silver;
+}
+#sue ul li{
+    border: 3px solid white;
+    padding:10px;
+    
+}
+#sue ul li span{
+    color:black;
+}
+
+#comment-box{
+    margin:auto;
+    width:400px;
+    height: 260px;
+    border:3px solid white;
+    background-color: silver;
+
+}
+#comment-box form{
+    text-align: center;
+}
+#comment-box label{
+    color:black;
+    font-weight: bold;
+}
